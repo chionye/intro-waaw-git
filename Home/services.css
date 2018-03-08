@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+}
+.navbar{
+    width:inherit;
+    height: 85px;
+    background-color: #000;
+    position: inherit;
+    top: 0px;
+    opacity: 50;
+}
+.nav-items{
+    float: right;
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.nav-items li{
+    list-style: none;
+    display: inline-block;
+    margin:0px 50px 0px 20px;
+    
+}
+.logo{
+    float: left;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+form{
+    
+}
+#team {border: 1px solid black;
+}
+h3 {font-family: cursive;
+    color: darkslategrey;}
+.footer{
+    background-color: black;
+    opacity: 20%;
+}
+h4{
+    color:white;
+    font-family: monospace;
+}

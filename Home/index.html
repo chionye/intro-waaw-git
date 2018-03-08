@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lux</title>
+    </head>
+<body>
+    <div class="container">
+            <!-- This will be our navigation bar -->
+            <nav class="navbar">
+
+                <div class="nav-container">
+                        <div class="logo">
+                                <img src="image/lux.png" width="100px" length="10px"/>                </div>
+                            <ul class="nav-items">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="product.html" target="_self">Products</a></li>
+                                <li><a href="Services.html" target="_self">Services</a></li>
+                                <li><a href="feedback.html" target="_self">Feedbacks and Faqs</a></li>
+                                <li><a href="OUR_TEAM.html" target="_self">Our Team</a></li>
+                                <li><a href="ABOUT.html" target="_self">About Us</a></li>
+                                
+                            </ul>
+                </div>
+            </nav>
+    </div>
+    <h1>Bringing the Power To Your Fingertips</h1>
+    
+    
+    
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image/images%20(12).jpg"style="width:100%">
+<!--    <div class="text">Caption Text</div>-->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image/images%20(18).jpg"style="width:100%">
+<!--    <div class="text">Caption Two</div>-->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="image/images%20(16).jpg"style="width:100%">
+<!--    <div class="text">Caption Three</div>-->
+  </div>
+
+<!--
+   Next and previous buttons 
+  <a class="prev"onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next"onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+-->
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot"onclick="currentSlide(1)"></span> 
+  <span class="dot"onclick="currentSlide(2)"></span> 
+  <span class="dot"onclick="currentSlide(3)"></span> 
+</div>
+    </div>
+    
+    <script>
+    
+        var slideIndex = 0;
+            showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+    </script>
+    
+    <section class="main-content">
+        <section>
+            <div class="content1">
+                <img src="image/solar-energy-in-India-1250x833.jpg" width="500px" length="500px"/>
+            </div>
+            <div class="text1">
+                <h1>Harnessing The Power of The Sun</h1>
+                <h4>The sun is the closest star to the earth and has a surface temperature of 5500℃ and reaches about 15 million ℃ at its center. It is all of the colours added together into one. It is our greatest ally and our cleanest source of light and power, so with our top of the line solar panels, we harness all that power and in turn we give you light.</h4>
+            </div>
+        
+
+        <div class="content2">
+                <img src="image/unnamed.png" width="300px" length="300px"/>
+            </div>
+            <div class="text2" style="align-content: space-around">
+                <h1>The Little Batteries that Could</h1>
+                <h4>With light comes the darkness, so in the night, when there continues to be a power outage and with the recent hike and scarcity of fuel, don't worry about a thing because our iverter has got you covered</h4>
+            </div>
+    </section>
+        <div class="content3">
+                <img src="image/coupon.png" width="700px" length="200px"/>
+            </div>
+        
+ </section> 
+<footer>
+    <section class="foot">
+        <div class="partners">
+            <h1>Our Partners</h1>
+            
+                <img src="image/ecaa124230416794d8325bbf6404d409--solar-energy-case.jpg" width="100px" height="50px"/>
+                <img src="image/Logo.jpg" width="100px" height="50px"/>
+                <img src="image/images.png" width="100px" height="50px"/>
+                <img src="image/download%20(2).jpg" width="100px" height="50px"/>
+                <img src="image/download.png" width="100px" height="50px"/>
+        </div>
+        <h4>©2018. This website is owned and controlled by Lux inc and is subject to<br>any and all laws. <br>All rights reserved</h4>
+    </section>
+    
+    </footer>
+    </body>
+</html>
